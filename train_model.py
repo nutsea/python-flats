@@ -67,6 +67,5 @@ plt.show()
 
 # Отправляем данные в ClearML
 task.upload_artifact('correlation_matrix.png', artifact_object=plt.gcf())
-
 # Завершаем задачу ClearML
 task.close()
